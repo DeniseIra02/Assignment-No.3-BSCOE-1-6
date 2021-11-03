@@ -5,4 +5,8 @@ def getName():
 def getAge():
     _age = int(input("Age: "))
     return _age
-    
+
+def getAdd():
+    _add = input("Address: ")
+    return _add
+
