@@ -20,3 +20,10 @@ def getChange():
 
 def display(aplQuantF, changeF):
     print(f"You can buy {aplQuantF} apple/s and your change is {changeF} pesos.")
+
+money = getMoney()
+aplPrice = getAplPrice()
+aplQuant = getAplQuant()
+total = getTotal()
+change = getChange()
+display(aplQuant, change)
