@@ -9,5 +9,8 @@ def getOrng():
 def getPrice(apl_, orng_):
     aplPrice = apl_ * 20
     orngPrice = orng_ * 25
-    overallPrice = aplPrice + orngPrice
-    return overallPrice
+    totalPrice = aplPrice + orngPrice
+    return totalPrice
+
+def display(ovrllTotal_):
+    print(f"The total amount {ovrllTotal_} pesos.")
