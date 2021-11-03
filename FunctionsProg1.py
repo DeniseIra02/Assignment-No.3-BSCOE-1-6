@@ -17,4 +17,3 @@ name = getName()
 age = getAge()
 address = getAdd()
 display(name, age, address)
-
