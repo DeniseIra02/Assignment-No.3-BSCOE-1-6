@@ -28,3 +28,12 @@ def getOverallTtl():
 
 def display(totalF):
     print(f"The total amount is {totalF} pesos.")
+
+quantapl= getApl()
+quantorng = getOrng()
+aplPrice = getAplPrice()
+orngPrice = getOrngPrice()
+appleTotal = getAplTotal()
+orangeTotal = getOrngTotal()
+total = getOverallTtl()
+display(total)
