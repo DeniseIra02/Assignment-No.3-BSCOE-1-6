@@ -17,3 +17,14 @@ def getOrngPrice():
 def getAplTotal():
     _appleTotal = quantapl * aplPrice
     return _appleTotal
+
+def getOrngTotal():
+    _orangeTotal = quantorng * orngPrice
+    return _orangeTotal
+
+def getOverallTtl():
+    overallTtl = appleTotal + orangeTotal
+    return overallTtl
+
+def display(totalF):
+    print(f"The total amount is {totalF} pesos.")
