@@ -12,3 +12,8 @@ def getAdd():
 
 def display(name_, age_, add_):
     print(f"Hi, my name is {name_}. I am {age_} years old and I live in {add_}.")
+
+name = getName()
+age = getAge()
+address = getAdd()
+display(name, age, address)
