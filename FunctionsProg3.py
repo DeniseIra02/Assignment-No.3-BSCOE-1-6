@@ -13,3 +13,10 @@ def getAplQuant():
 def getTotal():
     _total = aplQuant * aplPrice
     return _total
+
+def getChange():
+    _change = money - total
+    return _change
+
+def display(aplQuantF, changeF):
+    print(f"You can buy {aplQuantF} apple/s and your change is {changeF} pesos.")
